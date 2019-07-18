@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct 10 18:28:22 2018
+# Process ID: 15256
+# Current directory: P:/Adder/two_bit_adder/two_bit_adder.runs/synth_1
+# Command line: vivado.exe -log Adderblock_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adderblock_design_wrapper.tcl
+# Log file: P:/Adder/two_bit_adder/two_bit_adder.runs/synth_1/Adderblock_design_wrapper.vds
+# Journal file: P:/Adder/two_bit_adder/two_bit_adder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Adderblock_design_wrapper.tcl -notrace

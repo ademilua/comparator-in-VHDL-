@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../booleanComp.srcs/sources_1/new/BooleanComp_Source_beh.vhd" \
+"../../../../booleanComp.srcs/sim_1/new/BooleanComp_Source_tb.vhd" \
+
+# Do not sort compile order
+nosort

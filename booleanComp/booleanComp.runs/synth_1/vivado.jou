@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct  3 16:34:50 2018
+# Process ID: 2156
+# Current directory: C:/Users/toadem/Desktop/comparator/booleanComp/booleanComp.runs/synth_1
+# Command line: vivado.exe -log BooleanComp_Source_beh.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BooleanComp_Source_beh.tcl
+# Log file: C:/Users/toadem/Desktop/comparator/booleanComp/booleanComp.runs/synth_1/BooleanComp_Source_beh.vds
+# Journal file: C:/Users/toadem/Desktop/comparator/booleanComp/booleanComp.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source BooleanComp_Source_beh.tcl -notrace

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1538222423">
+  <File Type="ROUTE-PWR" Name="when_source_beh_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="when_source_beh.tcl"/>
+  <File Type="BITSTR-BMM" Name="when_source_beh_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="when_source_beh_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="when_source_beh_reports.tcl"/>
+  <File Type="OPT-DCP" Name="when_source_beh_opt.dcp"/>
+  <File Type="OPT-DRC" Name="when_source_beh_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="when_source_beh.hwdef"/>
+  <File Type="PWROPT-DCP" Name="when_source_beh_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="when_source_beh_placed.dcp"/>
+  <File Type="PLACE-IO" Name="when_source_beh_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="when_source_beh_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="when_source_beh_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="when_source_beh_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="when_source_beh_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="when_source_beh.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="when_source_beh_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="when_source_beh.bin"/>
+  <File Type="PHYSOPT-DCP" Name="when_source_beh_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="when_source_beh.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="when_source_beh_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="when_source_beh_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="when_source_beh_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="when_source_beh_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="when_source_beh_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="when_source_beh_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="when_source_beh.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="when_source_beh_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="when_source_beh.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="when_source_beh_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="when_source_beh_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="when_source_beh.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="when_source_beh_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="when_source_beh_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="when_source_beh_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="when_source_beh_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="when_source_beh_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="when_source_beh_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="when_source_beh_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="when_source_beh.vdi"/>
+  <File Type="ROUTE-BUS-SKEW" Name="when_source_beh_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="when_source_beh_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="when_source_beh_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="when_source_beh_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="when_source_beh_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="when_source_beh.bit"/>
+  <File Type="BITSTR-RBT" Name="when_source_beh.rbt"/>
+  <File Type="BITSTR-NKY" Name="when_source_beh.nky"/>
+  <File Type="BG-DRC" Name="when_source_beh.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/when_source_beh.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="when_source_beh"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

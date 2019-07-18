@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../two_bit_adder.srcs/sources_1/new/half_adder.vhd" \
+"../../../../two_bit_adder.ip_user_files/bd/Adderblock_design/ip/Adderblock_design_half_adder_0_0/sim/Adderblock_design_half_adder_0_0.vhd" \
+"../../../../two_bit_adder.ip_user_files/bd/Adderblock_design/ip/Adderblock_design_half_adder_1_0/sim/Adderblock_design_half_adder_1_0.vhd" \
+"../../../../two_bit_adder.ip_user_files/bd/Adderblock_design/ip/Adderblock_design_half_adder_2_0/sim/Adderblock_design_half_adder_2_0.vhd" \
+"../../../../two_bit_adder.ip_user_files/bd/Adderblock_design/sim/Adderblock_design.vhd" \
+"../../../../two_bit_adder.srcs/sources_1/bd/Adderblock_design/hdl/Adderblock_design_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov  8 11:29:01 2018
+# Process ID: 3056
+# Current directory: F:/comparator/when_source
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10788 F:\comparator\when_source\when_source.xpr
+# Log file: F:/comparator/when_source/vivado.log
+# Journal file: F:/comparator/when_source\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/comparator/when_source/when_source.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/toadem/Desktop/comparator/when_source' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DigiXilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 801.000 ; gain = 84.164
+update_compile_order -fileset sources_1
+close_project
+open_project F:/comparator/Comparator_select/Comparator_select.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/toadem/Desktop/comparator/Comparator_select' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DigiXilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 818.293 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  8 11:51:05 2018...

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov  8 11:29:01 2018
+# Process ID: 3056
+# Current directory: F:/comparator/when_source
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10788 F:\comparator\when_source\when_source.xpr
+# Log file: F:/comparator/when_source/vivado.log
+# Journal file: F:/comparator/when_source\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/comparator/when_source/when_source.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project F:/comparator/Comparator_select/Comparator_select.xpr
+update_compile_order -fileset sources_1

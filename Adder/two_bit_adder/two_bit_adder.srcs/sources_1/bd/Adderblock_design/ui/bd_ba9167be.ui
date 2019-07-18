@@ -1,0 +1,25 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port B0 -pg 1 -y -10 -defaultsOSRD
+preplace port B1 -pg 1 -y 140 -defaultsOSRD
+preplace port SUM0 -pg 1 -y -30 -defaultsOSRD
+preplace port SUM1 -pg 1 -y 130 -defaultsOSRD
+preplace port CARRY -pg 1 -y 150 -defaultsOSRD
+preplace port A0 -pg 1 -y -30 -defaultsOSRD
+preplace port A1 -pg 1 -y 120 -defaultsOSRD
+preplace inst full_adder_0 -pg 1 -lvl 2 -y 140 -defaultsOSRD
+preplace inst half_adder_0 -pg 1 -lvl 1 -y -20 -defaultsOSRD
+preplace netloc half_adder_0_sum0 1 1 2 NJ -30 N
+preplace netloc full_adder_0_carry_out 1 2 1 N
+preplace netloc half_adder_0_carry 1 1 1 -210
+preplace netloc a1_0_1 1 0 2 NJ 120 NJ
+preplace netloc a0_0_1 1 0 1 NJ
+preplace netloc b0_0_1 1 0 1 NJ
+preplace netloc b1_0_1 1 0 2 NJ 140 NJ
+preplace netloc full_adder_0_sum1 1 2 1 N
+levelinfo -pg 1 -410 -300 -100 690 -top -190 -bot 270
+",
+}
+0

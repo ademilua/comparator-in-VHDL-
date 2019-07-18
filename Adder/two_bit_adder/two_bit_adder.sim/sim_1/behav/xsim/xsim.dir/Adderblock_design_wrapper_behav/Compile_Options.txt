@@ -1,0 +1,1 @@
+-wto "1a38db02c3aa4c7284a8108ee725436b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "Adderblock_design_wrapper_behav" "xil_defaultlib.Adderblock_design_wrapper" -log "elaborate.log" 
